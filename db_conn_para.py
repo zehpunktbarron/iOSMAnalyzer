@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
-import argparse
 
+#description :This file takes all input parameters and passes them on to the single scripts
+#author :Christopher Barron @ http://giscience.uni-hd.de/
+#date :18.04.2013
+#version :0.2
+#==============================================================================
+
+import argparse
 
 # Set flags for DB-connection
 parser = argparse.ArgumentParser()
@@ -27,6 +33,3 @@ g_my_dbpassword = args.my_dbpassword
 
 global g_my_hostname
 g_my_hostname = args.my_hostname
-  
-
-
