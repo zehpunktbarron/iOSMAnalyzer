@@ -2,7 +2,7 @@
 #!/usr/bin/python2.7
 
 #description     :This file creates a plot: Calculates the number of osm-features with full address information according to the "Karlsruhe-Schema"
-#author          :Christopher Barron
+#author          :Christopher Barron @ http://giscience.uni-hd.de/
 #date            :19.01.2013
 #version         :0.1
 #usage           :python pyscript.py
