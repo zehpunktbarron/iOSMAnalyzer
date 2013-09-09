@@ -1,6 +1,13 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/python2.7
 
+#description :This file executes all the files from the script-folder
+#author :Christopher Barron @ http://giscience.uni-hd.de/
+#date :18.04.2013
+#version :0.1
+#usage :python main.py -D database -U username -H host -P password
+#==============================================================================
+
 # import modules
 import argparse
 import logging
