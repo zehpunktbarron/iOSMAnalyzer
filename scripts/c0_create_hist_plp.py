@@ -3,7 +3,7 @@
 
 #description     :This file creates a database view containing all points, lines and polygons
 #		  This is necessary for querying the whole database
-#author          :Christopher Barron
+#author          :Christopher Barron @ http://giscience.uni-hd.de/
 #date            :18.04.2013
 #version         :0.1
 #usage           :python pyscript.py
