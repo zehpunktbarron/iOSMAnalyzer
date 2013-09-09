@@ -3,7 +3,7 @@
 
 #title           :All points
 #description     :This file creates a plot: Total number of nodes per month
-#author          :Christopher Barron
+#author          :Christopher Barron @ http://giscience.uni-hd.de/
 #date            :19.01.2013
 #version         :0.1
 #usage           :python pyscript.py
