@@ -2,7 +2,7 @@
 #!/usr/bin/python2.7
 
 #description     :This file creates a map: Calculates a 1*1 km grid over the map. For each grid the amount of distinct contributers is calculated. Grids <15 contributers are rendered red, grids >=15 are rendered green
-#author          :Christopher Barron
+#author          :Christopher Barron @ http://giscience.uni-hd.de/
 #date            :19.01.2013
 #version         :0.1
 #usage           :python pyscript.py
