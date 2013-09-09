@@ -2,7 +2,7 @@
 #!/usr/bin/python2.7
 
 #description     :This file creates a Plot: Calculates number of buildings and all buildings with an housenumber (as a node, tag or interpolation-line)
-#author          :Christopher Barron
+#author          :Christopher Barron @ http://giscience.uni-hd.de/
 #date            :06.06.2013
 #version         :0.2
 #usage           :python pyscript.py
