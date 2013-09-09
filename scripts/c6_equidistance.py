@@ -2,7 +2,7 @@
 #!/usr/bin/python2.7
 
 #description     :This file creates a plot: Calculates the development of the equidistance between version 1 an the currently valid version of a polygon with a "natural" or "landuse"-tag
-#author          :Christopher Barron
+#author          :Christopher Barron  @ http://giscience.uni-hd.de/
 #date            :18.07.2013
 #version         :0.1
 #usage           :python pyscript.py
