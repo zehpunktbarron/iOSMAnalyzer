@@ -5,7 +5,7 @@
 #		from tho timestamps (timestamp and 31.12.2010)
 #		Therefore, this script extracts the second last DB-entry of each highway (for comnparison with 
 #		the currently valid entry) and inserts it to an initialy created database.
-#author          :Christopher Barron
+#author          :Christopher Barron @ http://giscience.uni-hd.de/
 #date            :19.01.2013
 #version         :0.1
 #usage           :python pyscript.py
