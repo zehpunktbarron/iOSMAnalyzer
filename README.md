@@ -10,8 +10,8 @@ To run the tool the following prerequisites are necessary:
 
 - Osmium: http://wiki.openstreetmap.org/wiki/Osmium/Quick_Start
 - OSM-History-Splitter (Splits *.osh files into smaller extracts): https://github.com/MaZderMind/osm-history-splitter
-- OSM-History-Renderer/Importer (Imports an *.osh file to a PostGIS? database): https://github.com/MaZderMind/osm-history-renderer. The importer has some bugs which have to be considered. Deleted ways and polygons are imported as if they have not been deleted! Furthermore I extended the importer to also consider user names and user ids. Add the lines added in the attached files "handler.hpp" and "00-before.sql" to your version. When using the OSM-History-Importer I figured out some problems if the user name of the database and the linux user differed. To avoid any problems use the same name.
-- PostgreSQL?/PostGIS database. The tool was developed under PostgreSQL? 9.1.9 and PostGIS? 1.5.3. I did not test it on PostGIS? 2.x
+- OSM-History-Renderer/Importer (Imports an *.osh file to a PostGIS database): https://github.com/MaZderMind/osm-history-renderer. The importer has some bugs which have to be considered. Deleted ways and polygons are imported as if they have not been deleted! Furthermore I extended the importer to also consider user names and user ids. Add the lines added in the attached files "handler.hpp" and "00-before.sql" to your version. When using the OSM-History-Importer I figured out some problems if the user name of the database and the linux user differed. To avoid any problems use the same name.
+- PostgreSQL/PostGIS database. The tool was developed under PostgreSQL 9.1.9 and PostGIS 1.5.3. I did not test it on PostGIS 2.x
 - You need “psycopg2” (http://www.initd.org/psycopg/) to connect the database with the python tool: 
 
 <pre><code>sudo apt-get build-dep python-psycopg2 python-pip
@@ -26,7 +26,7 @@ sudo apt-get install python-dev
 sudo apt-get install python-imaging 
 sudo apt-get install python-reportlab python-reportlab-accel python-renderpm</code></pre>
 
-MatplotLib? (http://matplotlib.org/) is used for generating the diagrams: 
+MatplotLib (http://matplotlib.org/) is used for generating the diagrams: 
     
 <pre><code>sudo apt-get install python-matplotlib</code></pre>
 
