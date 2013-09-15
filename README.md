@@ -37,7 +37,7 @@ If all these prerequisites are installed you can clone the iOSMAnalyzer (https:/
 Some general hints for installation and usage:
 
 - During the installation process some dependencies had to be installed manually. Carefully read the command line output after each and every installation as some of them have been developed further.
-- Database tuning for a better performance: A good reference is this guide provided by OpenGeo.
+- Database tuning for a better performance: A good reference is this guide provided by OpenGeo (http://workshops.opengeo.org/postgis-intro/tuning.html).
 - Some queries of the iOSMAnalyzer also write new (temporary) tables or views to the database. Therefore problems can occur if not all tables or views are assigned to the correct user/owner.
 - Get the data: You can download the latest worldwide OSM-Full-History-Dump or use previously created extracts.
 - I created a simple tool that works. Focus was not on a high performance piece of software. On my machine the entire tool took around 10-15 minutes to run on an area with around 2.000.000 nodes in the hist_point table.
