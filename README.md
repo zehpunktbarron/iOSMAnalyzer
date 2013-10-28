@@ -2,7 +2,7 @@ iOSMAnalyzer
 ============
 
 A tool for intrinsic OpenStreetMap data quality analyses.
-Developed by Christopher Barron @ http://giscience.uni-hd.de/
+Developed by Christopher Barron & Pascal Neis @ http://giscience.uni-hd.de/
 
 This command line tool generates a PDF document containing statistics, maps and diagrams which can be used for assessing the quality of a selected OSM area. As an input only an OSM-Full-History-Dump is needed. It is written in python mainly performing SQL queries on a local database on Linux (Ubuntu) operating system. The tool is published under GNU GENERAL PUBLIC LICENSE V3. Feel free to use and contribute to the tool on GitHub.
 
